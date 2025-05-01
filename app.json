@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ElderAid",
+    "slug": "medicine",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.jpg",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/logo.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.raj_karan.medicine"
+    },
+    "web": {
+      "favicon": "./assets/logo.jpg"
+    },
+    "extra": {
+      "eas": {
+        "firebaseApiKey": "AIzaSyAVCrCHGTzmLRDLlQ8ScFitQNT3fxRwips",
+        "firebaseAuthDomain": "elder-care-f30c2.firebaseapp.com",
+        "firebaseProjectId": "elder-care-f30c2",
+        "firebaseStorageBucket": "elder-care-f30c2.firebasestorage.app",
+        "firebaseMessagingSenderId": "443633269682",
+        "firebaseAppId": "1:443633269682:web:2bfe2c55f3c6b9351782ab",
+        "projectId": "e8fd46c8-9fd4-4c8e-8a7a-9f4d50a75f56"
+      }
+    }
+  }
+}
